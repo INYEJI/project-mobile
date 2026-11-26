@@ -1,0 +1,76 @@
+[
+  {
+    "name": "더마비 데일리 모이스처 바디크림",
+    "image": "/images/products/04_dermab/01_daily/db_01_001.png",
+    "category": "daily",
+    "brand": "DB"
+  },
+  {
+    "name": "더마비 데일리 모이스처 포밍 핸드워시",
+    "image": "/images/products/04_dermab/01_daily/db_01_002.png",
+    "category": "daily",
+    "brand": "DB"
+  },
+  {
+    "name": "더마비 데일리 모이스처 바디로션",
+    "image": "/images/products/04_dermab/01_daily/db_01_003.png",
+    "category": "daily",
+    "brand": "DB"
+  },
+  {
+    "name": "더마비 데일리 모이스처 바디오일",
+    "image": "/images/products/04_dermab/01_daily/db_01_004.png",
+    "category": "daily",
+    "brand": "DB"
+  },
+  {
+    "name": "더마비 데일리 모이스처 바디워시",
+    "image": "/images/products/04_dermab/01_daily/db_01_005.png",
+    "category": "daily",
+    "brand": "DB"
+  },
+
+  {
+    "name": "더마비 세라엠디 리페어 크림",
+    "image": "/images/products/04_dermab/02_repair/db_02_001.png",
+    "category": "repair",
+    "brand": "DB"
+  },
+  {
+    "name": "더마비 세라엠디 리페어 로션",
+    "image": "/images/products/04_dermab/02_repair/db_02_002.png",
+    "category": "repair",
+    "brand": "DB"
+  },
+  {
+    "name": "더마비 세라엠디 리페어 오일",
+    "image": "/images/products/04_dermab/02_repair/db_02_003.png",
+    "category": "repair",
+    "brand": "DB"
+  },
+  {
+    "name": "더마비 세라엠디 리페어 워시",
+    "image": "/images/products/04_dermab/02_repair/db_02_004.png",
+    "category": "repair",
+    "brand": "DB"
+  },
+
+  {
+    "name": "더마비 AC 컨트롤 바디로션",
+    "image": "/images/products/04_dermab/03_ac/db_03_001.png",
+    "category": "ac",
+    "brand": "DB"
+  },
+  {
+    "name": "더마비 AC 컨트롤 바디미스트",
+    "image": "/images/products/04_dermab/03_ac/db_03_002.png",
+    "category": "ac",
+    "brand": "DB"
+  },
+  {
+    "name": "더마비 AC 컨트롤 바디워시",
+    "image": "/images/products/04_dermab/03_ac/db_03_003.png",
+    "category": "ac",
+    "brand": "DB"
+  }
+]

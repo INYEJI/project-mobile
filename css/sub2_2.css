@@ -1,0 +1,466 @@
+@charset "UTF-8";
+/* 브랜드소개 - 리얼베리어 */
+/* 비주얼 */
+.visual{
+    width: 100%;
+    background: #222;
+}
+.visual span{
+    display: block;
+    color: #ccc;
+    padding: 150px 20px 20px 20px;
+    font-size: 1.5rem;
+}
+.visual strong{
+    display: block;
+    color: #fff;
+    padding: 0 20px 100px 20px;
+    font-size: 2.5rem;
+}
+.visual img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 0 20px 50px 20px;
+}
+/* 서브메뉴 */
+.sub_menu ul{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+.sub_menu ul li{
+    width: 25%;
+}
+.sub_menu ul li a{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 500;
+}
+.sub_menu ul li a.active{
+    border-bottom: 3px solid var(--color-rb);
+    color: var(--color-rb);
+}
+/* line-map */
+#content{
+    width: 100%;
+}
+#content .title_area{
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0 50px 0 ;
+}
+#content .title_area .line_map{
+    text-align: center;
+    color: #666;
+    font-size: 1rem;
+    padding-bottom: 10px ;
+}
+/* brand_concept */
+#content .title_area .brand_concept{
+    width: 100%;
+    margin: 0 auto;
+}
+#content .title_area .brand_concept span{
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+#content .title_area .brand_concept h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--color-rb);
+    margin-bottom: 30px;
+}
+#content .title_area .brand_concept p{
+    text-align: center;
+    padding: 0 20px;
+    font-size: 1.3rem;
+    color: #666;
+}
+#content .title_area .brand_concept img{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;   /* 100% 안에 padding 포함 */
+    padding: 70px 20px 50px 20px;
+}
+#content .title_area .brand_concept a{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;          /* 좌우 여백을 똑같이 나눔 → 가운데 */
+    background: var(--color-rb);
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+/* brand_story */
+#content .content_area{
+    width: 100%;
+}
+#content .content_area .brand_story{
+    width: 100%;
+    box-sizing: border-box; 
+    background: #222;
+    margin: 0 auto;
+    padding: 100px 20px 0px 20px;
+}
+#content .content_area .brand_story > span{
+    width: 100%;
+    background: var(--color-rb);
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+}
+#content .content_area .brand_story > h3{
+    display: inline-block;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 0 10px;
+}
+#content .content_area .brand_story .inner{
+    width: 100%;
+    padding: 50px 0;
+}
+#content .content_area .brand_story .inner span{
+    color: #fff;
+    font-size: 1.6rem;
+    display: block;
+    text-align: justify;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#content .content_area .brand_story .inner strong{
+    color: var(--color-rb);
+}
+#content .content_area .brand_story .inner p{
+    color: #ccc;
+    font-size: 1.3rem;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+#content .content_area .brand_story .inner img{
+    width: 100%;
+}
+/* brand_tech */
+#content .content_area .brand_tech{
+    width: 100%;
+    box-sizing: border-box; 
+    margin: 0 auto;
+    padding: 100px 20px 0px 20px;
+}
+#content .content_area .brand_tech > span{
+    width: 100%;
+    background: var(--color-rb);
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+}
+#content .content_area .brand_tech > h3{
+    display: inline-block;
+    color: var(--color-font);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 0 10px;
+}
+#content .content_area .brand_tech .inner{
+    width: 100%;
+    padding: 50px 0 0 0;
+}
+#content .content_area .brand_tech .inner li{
+    margin-bottom: 50px;
+}
+.brand_tech ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.brand_tech dl{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.brand_tech dt{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-font);
+}
+.brand_tech dd{
+    font-size: 1.2rem;
+    text-align: justify;
+    white-space: pre-line;
+}
+.brand_tech .tech_visual1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    position: relative;
+}
+.brand_tech .tech_visual1 ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.brand_tech .tech_visual1 ol li{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.brand_tech .tech_visual1 ol li > span{
+    font-weight: 700;
+    color: var(--color-rb);
+    font-size: 1.3rem;
+}
+.brand_tech .tech_visual1 ol li div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.brand_tech .tech_visual1 ol li div strong{
+    font-size: 1.2rem;
+}
+.brand_tech .tech_visual2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.brand_tech .tech_visual2 img{
+    width: 100%;
+}
+.brand_tech .tech_visual2 div {
+    display: flex;
+    flex-direction: column;
+}
+.brand_tech .tech_visual2 span{
+    padding: 20px;
+    text-align: center;
+}
+.brand_tech .tech_visual2 div:first-child span{
+    background-color: #f5f5f5;
+}
+.brand_tech .tech_visual2 div:last-child  span{
+    background-color: var(--color-rb);
+    color: #fff;
+}
+.brand_tech .tech_img{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+/* brand_core */
+#content .content_area .brand_core{
+    width: 100%;
+    box-sizing: border-box; 
+    margin: 0 auto;
+    padding: 100px 20px 0px 20px;
+    background: var(--color-rb);
+}
+#content .content_area .brand_core > span{
+    width: 100%;
+    background: #fff;
+    color: var(--color-rb);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+}
+#content .content_area .brand_core > h3{
+    display: inline-block;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+.brand_core ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    padding: 50px 0;
+}
+.brand_core ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    border-top: 3px solid #fff;
+    padding: 20px 0;
+    font-size: 1.3rem;
+    color: #fff;
+}
+/* brand_product */
+#content .content_area .brand_product{ 
+    width: 100%;
+    box-sizing: border-box; 
+    margin: 0 auto;
+    padding: 100px 20px 0px 20px;
+}
+#content .content_area .brand_product > h3{
+    display: block;
+    color: var(--color-rb);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 0 10px;
+    text-align: center;
+}
+#content .content_area .brand_product > span{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.brand_product .inner{
+    width: 100%;
+    padding: 50px 0;
+}
+.brand_product .inner .search_intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.brand_product #brand_search_form{
+    display:flex;
+    align-items: center;
+    gap:8px;
+    width:100%;
+    max-width:400px;       /* 태블릿처럼 넓은 화면에서 너무 길어지지 않게 */
+    margin:0 auto;         /* 가운데 정렬 */
+    box-sizing:border-box;
+}
+/* input 기본 박스 제거 */
+.brand_product .brand_search_input {
+  flex: 1;                   /* 남는 폭 전부 차지 */
+  min-width: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding-bottom: 10px;
+  font-size: 1rem;
+  color: var(--color-font);
+  -webkit-appearance: none;
+  appearance: none;
+  border-bottom: 4px double var(--color-rb);
+}
+.brand_product .search_btn{
+    flex-shrink:0;         /* 버튼은 절대 찌그러지지 않게 */
+    display:flex;
+    align-items:center; 
+    justify-content:center;
+    width:48px; 
+    height:44px;
+    border:none; 
+    border-radius:4px;
+    background:var(--color-rb); 
+    color:#fff;
+}
+.material-symbols-outlined{
+    color: var(--color-rb);
+    font-size: 2rem;
+}
+.brand_product .cate_tab{
+  display:flex;
+  flex-wrap:wrap;              /* 공간이 부족하면 다음 줄로 */
+  justify-content:center;      /* 줄마다 가운데 정렬 (왼쪽 정렬을 원하면 flex-start) */
+  gap:8px;                     /* 가로·세로 간격 모두 8px */
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.brand_product .cate_tab .tab{
+  display:inline-flex;
+  align-items:center;
+  min-height:36px;
+  padding:0 14px;
+  border:1px solid var(--color-rb);
+  border-radius:18px;
+  background:#fff;
+  color:var(--color-rb);
+  font-size:13px;
+  font-weight:700;
+  text-decoration:none;
+  white-space:nowrap;          /* 탭 글자 자체는 두 줄로 쪼개지지 않게 */
+}
+.brand_product .cate_tab .tab.active{
+  background:var(--color-rb);
+  color:#fff;
+}
+.brand_product .inner .product_list ul {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+    gap: 50px;
+}
+.brand_product .inner .product_list ul li img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    display: block;
+}
+.brand_product .inner .product_list ul li span{
+    color: var(--color-rb);
+}
+.brand_product .inner .product_list ul li strong{
+    display: block;
+    text-align: center;
+    color: var(--color-font);
+    font-size: 1.1rem;
+}
+.brand_product .inner .product_list .no_result{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    color: var(--color-rb);
+}
+/* 페이지네이션 */
+.pagination{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  margin-top:50px;
+  margin-bottom: 70px;
+}
+.pagination .page_btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:40px;
+  height:40px;
+  padding:0 10px;
+  box-sizing: border-box;
+  border:1px solid #ccc;
+  background:#fff;
+  font-size:1.2rem;
+  font-weight:400;
+  color:#5d5754;
+  line-height:1;
+  cursor:pointer;
+  transition:border-color .15s,color .15s,background .15s;
+}
+.pagination .page_btn:hover,
+.pagination .page_btn:focus-visible{
+  border-color:var(--color-rb);
+  color:var(--color-rb);
+}
+.pagination .page_btn.active,
+.pagination .page_btn.active:hover{
+  background:var(--color-rb);
+  border-color:var(--color-rb);
+  color:#fff;
+  font-weight:700;
+  cursor:default;
+}
+.pagination .page_btn:disabled{
+  border-color:#eee8e1;
+  color:#cfc8bf;
+  cursor:default;
+}

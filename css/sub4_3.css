@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* 채용정보 - 채용안내 콘텐츠 */
+.visual{
+    background: url(../images/sub4_1/rh1.png) center / cover no-repeat;
+}
+
+#content{
+    width: 100%;
+}
+.intro{
+   width: 100%;
+   padding: 100px 20px; 
+   box-sizing: border-box;
+}
+.intro span{
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 50px;
+}
+.intro span strong{
+    font-size: 2rem;
+    color: var(--color-main);
+    margin-bottom: 30px;
+}
+.intro p{
+    font-size: 1.4rem;
+    color: #666;
+    text-align: justify;
+}
+
+.process{
+    width: 100%;
+    padding: 100px 20px;
+    box-sizing: border-box;
+    background: var(--color-back2);
+}
+.process > span{
+    color: var(--color-point);
+    letter-spacing: 4px;
+    display: block;
+    margin-bottom: 10px;
+}
+.process h3{
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+}
+.process ol{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.process ol li {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.process ol li strong{
+    display: block;
+    font-size: 1.5rem;
+    border: 1px solid #333;
+    border-radius: 50%;
+    padding: 10px;
+    width: 52px;
+    background: #fff;
+    text-align: center;
+}
+.process ol li strong.active{
+    border: 1px solid var(--color-main);
+    background: var(--color-main);
+    color: #fff;
+}
+
+.process ol li div span{
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.apply{
+    width: 100%;
+    padding: 100px 20px;
+    box-sizing: border-box;
+}
+.apply > span{
+    color: var(--color-point);
+    letter-spacing: 4px;
+    display: block;
+    margin-bottom: 10px;
+}
+.apply h3{
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+}
+.apply dl {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    width: 100%;
+    padding: 22px 0;
+    margin: 0;
+
+    border-top: 1px solid #e5e5e5;
+}
+
+.apply dl:last-of-type {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.apply dt {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.apply dd {
+    width: 100%;
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #777;
+
+    text-align: left;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+}
+.apply .notice{
+    margin-top: 50px;
+    background: #e0071938;
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+.apply .notice span{
+    color: var(--color-main);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.apply .notice ul{
+    padding: 15px;
+}
+.apply .notice ul li{
+    list-style: disc;
+}
+.applynow{
+    width: 100%;
+    background: url(../images/sub4_3/bg3.png) center / cover no-repeat;
+    padding: 100px 20px;
+    box-sizing: border-box;
+    display: block;
+    z-index: 2;
+    position: relative;
+    border-radius: 0 20px 30px 30px;
+}
+.applynow span{
+    display: block;
+    color: var(--color-point);
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+.applynow strong{
+    display: block;
+    color: var(--color-font);
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+.applynow p{
+    color: #666;
+    font-size: 1.4rem;
+    margin-bottom: 70px;
+}
+.applynow a:nth-of-type(1){
+    display: block;
+    color: #fff;
+    background: var(--color-main);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.applynow a:nth-of-type(2){
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px 0;
+    border-radius: 10px;
+    color: var(--color-font);
+    display: block;
+    border: 1px solid #666;
+}

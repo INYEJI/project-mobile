@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* 회사소개-CI소개 콘텐츠 */
+
+
+/* ci */
+
+#content .content_area .ci{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: #222;
+    padding: 100px 20px;
+}
+#content .content_area .ci span{
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: var(--color-main);
+}
+#content .content_area .ci h3{
+    display: block;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #fff;
+}
+#content .content_area .ci img{
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+#content .content_area .ci p{
+    color: #ccc;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+/* symbol */
+#content .content_area .symbol{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+}
+#content .content_area .symbol h3{
+    display: block;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: var(--color-font);
+}
+#content .content_area .symbol > p{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #666;
+    margin-bottom: 100px;
+    padding: 0 20px;
+}
+#content .content_area .symbol .symbol_desc{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+#content .content_area .symbol .symbol_desc > span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 230px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    font-size: 1.7rem;
+    border: 1px solid #222;
+    border-radius: 50%;
+}
+#content .content_area .symbol .symbol_desc > span:nth-of-type(2){
+    background: #222;
+    color: #fff;
+    font-size: 2rem;
+}
+#content .content_area .symbol .symbol_desc > span:nth-of-type(4) {
+    background: url(../images/sub1_2/ci2.png) center / cover no-repeat;
+    border: none;
+}
+#content .content_area .symbol .symbol_desc > p{
+    text-align: justify;
+    font-size: 1.4rem;
+    color: #666;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#content .content_area .symbol .symbol_desc div ul li{
+    display: flex;
+    border-radius: 20px;
+    padding: 30px;
+    gap: 20px;
+    position: relative;
+}
+/* 두 번째 카드부터 위쪽 카드와 겹치기 */
+#content .content_area .symbol .symbol_desc div ul li + li {
+    margin-top: -30px;
+}
+#content .content_area .symbol .symbol_desc div ul li:nth-of-type(1){
+    background: #222;
+    z-index: 4;
+}
+#content .content_area .symbol .symbol_desc div ul li:nth-of-type(2){
+    background: #333;
+    z-index: 3;
+}
+#content .content_area .symbol .symbol_desc div ul li:nth-of-type(3){
+    background: #666;
+    z-index: 2;
+}
+#content .content_area .symbol .symbol_desc div ul li:nth-of-type(4){
+    background: #999;
+    z-index: 1;
+}
+#content .content_area .symbol .symbol_desc div ul li div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#content .content_area .symbol .symbol_desc div ul li:nth-of-type(odd){
+    display: block;
+    text-align: right;
+}
+#content .content_area .symbol .symbol_desc div ul li div span{
+    color: var(--color-main);
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+}
+#content .content_area .symbol .symbol_desc div ul li div strong{
+    font-size: 1.5rem;
+    color: #fff;
+}
+#content .content_area .symbol .symbol_desc div ul li div p{
+    font-size: 1.3rem;
+    color: #ccc;
+}
+
+/* maltese */
+#content .content_area .symbol .maltese{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 100px 20px;
+    background: var(--color-sub);
+}
+#content .content_area .symbol .maltese > img{
+    width: 100%;
+}
+#content .content_area .symbol .maltese > strong{
+    display: block;
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 50px;
+}
+#content .content_area .symbol .maltese > p{
+    text-align: justify;
+    font-size: 1.4rem;
+    color: #666;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 0 20px;
+}
+#content .content_area .symbol .maltese .swiper img{
+    width: 100%;
+}
+#content .content_area .symbol .maltese .swiper span{
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 30px;
+}

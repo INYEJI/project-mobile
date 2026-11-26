@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네오팜</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="./app_icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://kit.fontawesome.com/ebc3f60c75.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script> 
+        window.addEventListener("load",function(){ 
+                setTimeout(scrollTo,0,0,1); //상단의 주소표시줄을 위로 강제로 올린다.
+        },false); 
+    </script>
+</head>
+<body>
+    <div id="skipNav">
+        <a href="#content">본문바로가기</a>
+        <a href="#gnb">네비게이션바로가기</a>
+    </div>
+
+    <!-- 스플래시 스크린 화면 -->
+    <div id="splash-screen">
+       <!-- 로고나 이미지 경로를 넣으세요 -->
+       <img src="./startup.png" alt="Splash" class="splash-logo">
+    </div>
+    
+     <div id="wrap">
+
+       <header id="headerArea">
+            <!-- 헤더영역로드 -->
+            <div class="header_inner">
+                <h1 class="logo"><a href="./index.html">네오팜로고</a></h1>
+                <a href="#" class="menu_ham"><span>메뉴열기</span></a>
+            </div>    
+            <div class="modal"></div> 
+            <nav id="gnb">
+                <h2 class="hidden">글로벌네비게이션영역</h2>
+                <ul class="mainMenu">  
+                    <li class="depth1">
+                        <h3><a href="./sub1_1.html"><em>회사소개</em><span>+</span></a></h3>
+                        <ul>
+                            <li><a href="./sub1_1.html">경영이념</a></li>
+                            <li><a href="./sub1_2.html">CI소개</a></li>
+                            <li><a href="./sub1_3.html">오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1"><h3><a href="./sub2_1.html"><em>브랜드소개</em><span>+</span></a></h3>
+                        <ul>
+                            <li><a href="./sub2_1.html">아토팜</a></li>
+                            <li><a href="./sub2_2.html">리얼베리어</a></li>
+                            <li><a href="./sub2_3.html">제로이드</a></li>
+                            <li><a href="./sub2_4.html">더마비</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1"><h3><a href="./sub3_1.html"><em>연구소이야기</em><span>+</span></a></h3>
+                        <ul>
+                            <li><a href="./sub3_1.html">피부과학</a></li>
+                            <li><a href="./sub3_2.html">연구성과</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <h3><a href="./sub4_1.html"><em>채용정보</em><span>+</span></a></h3>
+                        <ul>
+                            <li><a href="./sub4_1.html">인재상</a></li>
+                            <li><a href="./sub4_2.html">복리후생</a></li>
+                            <li><a href="./sub4_3.html">채용안내</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="member">
+                    <li><a href="./login.html">LOGIN</a></li>
+                    <li><a href="./member_check.html">JOIN</a></li>
+                </ul>
+            </nav>
+       </header>
+
+       <div class="visual">
+            <div class="slogan">
+                <span class="visual_sub_title">피부 과학의 새로운 기준</span>
+                <p class="visual_title">
+                    The Global Leader<br>
+                    in <strong>Skin Science</strong>
+                </p>
+                <div class="slide_progress" aria-hidden="true">
+                    <span class="progress_bar"></span>
+                </div>
+            </div>
+            <div class="gallery">
+                <span class="visual_text text1" data-aos="fade-up">
+                    피부 과학의 혁신으로
+                </span>
+                <div class="hero_scroll">
+                    <div class="main_hero">
+                        <div class="hero_track">
+                            <img src="./images/main/main_hero1.png" alt="">
+                            <img src="./images/main/main_hero2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <span class="visual_text text2" data-aos="fade-up">
+                    더 건강한 내일을 만듭니다.
+                </span>
+            </div>
+        </div>
+
+       <main id="content">
+            <article>
+                <h2 class="hidden">본문콘텐츠영역</h2>    
+                <div class="content_intro">
+                    <img data-aos="fade-right"  src="./images/main/intro4.png" alt="">
+                    <img data-aos="fade-left" src="./images/main/intro5.png" alt="">
+                    <img data-aos="fade-right" src="./images/main/intro6.png" alt="">
+                </div>
+
+                <section class="company">
+                    <h3>ABOUT US</h3>
+                    <p>피부장벽 과학, <br> 네오팜이 지켜온 <strong>25년</strong></p>
+                    <p>2000년 설립 이후 MLE 기술을 기반으로 민감 피부를 위한 더마코스메틱을 만들어 왔습니다.</p>
+                    <div>
+                        <ul class="company_ind">
+                            <li><span>설립일</span><strong>2000.07</strong></li>
+                            <li><span>총자산 (2024)</span><strong>1,924억</strong></li>
+                            <li><span>K-BPI 1위</span><strong>19년 연속</strong></li>
+                            <li><span>보유 브랜드</span><strong>6개</strong></li>
+                            <li><span>수출 국가</span><strong>10+</strong></li>
+                            <li><span>특허 출원국</span><strong>7개</strong></li>
+                        </ul>
+                    </div>
+                    <div class="company_desc">
+                        <div class="swiper mySwiper swiper1" data-aos="zoom-in" data-aos-duration="2000">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/main/company4.png" alt="">
+                                        <div>
+                                            <h4>경영이념</h4>
+                                            <p>피부 건강을 향한 정직한 과학</p>
+                                            <span><i class="fa-regular fa-circle-right"></i></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/main/company5.png" alt="">
+                                        <div>
+                                            <h4>CI소개</h4>
+                                            <p>심볼과 로고에 담긴 의미</p>
+                                            <span><i class="fa-regular fa-circle-right"></i></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/main/company6.png" alt="">
+                                        <div>
+                                            <h4>오시는길</h4>
+                                            <p>네오팜에 오시는 길</p>
+                                            <span><i class="fa-regular fa-circle-right"></i></span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="swiper-pagination pagination1"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="brand">
+                    <div class="brand_scroll">
+                        <div class="brand_sticky">
+                            <div class="brand_images">
+                                <img src="./images/main/brand5.png" class="active" alt="브랜드 이미지 1">
+                                <img src="./images/main/brand6.png" alt="브랜드 이미지 2">
+                                <img src="./images/main/brand7.png" alt="브랜드 이미지 3">
+                                <img src="./images/main/brand8.png" alt="브랜드 이미지 4">
+                            </div>
+                        </div>
+                    </div>
+                    <strong>Beyond Skin, <br>Beyond Tomorrow</strong>
+                    <h3>BRAND</h3>
+                    <p>피부가 다르면, <br>필요한 브랜드도 다릅니다</p>
+                    <div class="swiper mySwiper swiper2">
+                        <ul class="swiper-wrapper brand_list">
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <img src="./images/main/product7.png" alt="">
+                                    <div>
+                                        <strong>아토팜</strong>
+                                        <span>민감 피부 전문</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <img src="./images/main/product8.png" alt="">
+                                    <div>
+                                        <strong>리얼베리어</strong>
+                                        <span>민감 피부 장벽 브랜드</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <img src="./images/main/product9.png" alt="">
+                                    <div>
+                                        <strong>제로이드</strong>
+                                        <span>병원용 기능성 제품</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <img src="./images/main/product10.png" alt="">
+                                    <div>
+                                        <strong>더마비</strong>
+                                        <span>세상의 모든 바디 피부</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <img src="./images/main/product11.png" alt="">
+                                    <div>
+                                        <strong>티엘스</strong>
+                                        <span>클리니컬 뷰티 브랜드</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <img src="./images/main/product12.png" alt="">
+                                    <div>
+                                        <strong>포앤팜</strong>
+                                        <span>우리집 강아지들까지</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="swiper-scrollbar" style="background: #fff;"></div>
+                    </div>
+                </section>
+
+                <section class="rdcenter">
+                    
+                    <div class="swiper mySwiper swiper3">
+                        <div class="parallax-bg" style="background-image: url(./images/main/rdcenter.png);" data-swiper-parallax="-23%"></div>
+                        <div class="rdcenter_intro">
+                            <h3>R&amp;D CENTER</h3>
+                            <p>피부를 이해하는 일에서 <br>모든 것이 시작됩니다</p>
+                        </div>
+                        <ul class="swiper-wrapper">                          
+                            <li class="swiper-slide">
+                                <div class="title center_info" data-swiper-parallax="-300">
+                                    <span>01</span>
+                                    <strong>네오팜의 연구소 이야기</strong>
+                                    <p>2000년 설립 이후 피부장벽 연구에만 집중해 온 네오팜 기술연구소의 축적된 시간과 성과를 소개합니다. 
+                                        기초 연구부터 제형 개발, 임상 평가까지 한 곳에서 이어지는 연구 프로세스를 갖추고 있습니다.
+                                    </p>
+                                    <a href="#">더보기</a>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="title center_info" data-swiper-parallax="-300">
+                                    <span>02</span>
+                                    <strong>독자적 피부장벽 기술</strong>
+                                    <p>피부 지질층 구조를 재현한 MLE 기술을 기반으로 민감 피부를 위한 처방을 만들어 왔습니다. 
+                                        자체 개발 원료와 특허 기술이 모든 브랜드 제품의 공통 토대가 됩니다.
+                                    </p>
+                                    <a href="#">더보기</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination pagination3"></div>
+                    </div>
+                </section>
+
+                <section class="careers">
+                    <h3>CAREERS</h3>
+                    <p>피부과학의 다음 25년, <br>함께 쓸 사람을 찾습니다</p>
+                    <div class="career">
+                        <ul>
+                            <li>
+                                <button type="button" class="career_btn" aria-expanded="false">
+                                    <span>인재상</span>
+                                    <span class="arrow"></span>
+                                </button>
+                                <div class="career_open">
+                                    <p>
+                                        새로운 가능성을 발견하고, 더 나은 내일을 만들어갑니다.
+                                        네오팜과 함께 건강한 아름다움의 미래를 이끌어갈 인재를 기다립니다.
+                                    </p>
+                                    <img src="./images/main/careers1.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                               <button type="button" class="career_btn" aria-expanded="false">
+                                    <span>복리후생</span>
+                                    <span class="arrow"></span>
+                                </button>
+                                <div class="career_open">
+                                    <p>네오팜과 함께하는 모든 순간, 당신의 삶과 성장을 지지합니다.                                        
+                                        임직원의 건강과 안녕, 그리고 전문적 성장을 위한 포괄적인 지원을 아끼지 않습니다.
+                                        여러분의 업무 몰입과 삶의 질을 동시에 높여줄 다양한 케어 제도를 확인해 보세요.
+                                    </p>
+                                    <img src="./images/main/careers2.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <button type="button" class="career_btn" aria-expanded="false">
+                                    <span>채용안내</span>
+                                    <span class="arrow"></span>
+                                </button>
+                                <div class="career_open">
+                                    <p>
+                                        네오팜에 지원해 주신 모든 분들께 감사드립니다.
+                                        ㈜네오팜은 진취적 자세와 열정을 가진 분들의 많은 지원을 바랍니다.
+                                    </p>
+                                    <img src="./images/main/careers3.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </article>
+       </main>
+
+       <footer id="footerArea">
+           <!-- 푸터영역로드 -->
+            <a class="top_move" href="#"><span>TOP</span></a>
+            <div class="footer_top">
+                <p>Science for <br> <strong>Better Living</strong></p>
+                <p>피부를 향한 끊임없는 연구와 혁신으로, 모두의 건강한 일상과 더 나은 내일을 만들어갑니다.</p>
+            </div>
+            <div class="footer_bottom">
+                <div class="family select">
+                    <a class="arrow" href="#">family site <span><i class="fa-solid fa-plus"></i></span></a>
+                    <div class="aList">
+                        <ul>
+                            <li><a href="https://neopharmshop.co.kr/" target="_blank" title="아토팜 사이트 새창에 열림">아토팜</a></li>
+                            <li><a href="https://myrealbarrier.co.kr/" target="_blank" title="리얼베리어 사이트 새창에 열림">리얼베리어</a></li>
+                            <li><a href="https://www.zeroid.co.kr/web/" target="_blank" title="제로이드 사이트 새창에 열림">제로이드</a></li>
+                            <li><a href="https://www.neopharmshop.co.kr/brandstory/dermab.html" target="_blank" title="더마비 사이트 새창에 열림">더마비</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="sns">
+                    <li><a href="https://www.facebook.com/p/Neopharmshop-100066624036327/" target="_blank" title="페이스북 새 탭에 열림"><span class="hidden">페이스북</span><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/atopalm_official" target="_blank" title="인스타그램 새 탭에 열림"><span class="hidden">인스타그램</span><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/@atopalm.official" target="_blank" title="유튜브 새 탭에 열림"><span class="hidden">유튜브</span><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+                <ul class="terms">
+                    <li><a href="./member_check.html">사이트 이용약관</a></li>
+                    <li><a href="./member_check.html">개인정보 처리방침</a></li>
+                    <li><a href="./member_check.html">이메일무단수집거부</a></li>
+                </ul>
+                <div class="info_box">
+                    <span><img src="./images/common/logo2.png" alt=""></span>
+                    <div class="info"> 
+                        <address>
+                        주식회사 네오팜 대전광역시 유성구 테크노 2로 309-8
+                        대표이사 : 김양수 <br>
+                        고객상담 080-500-0037 운영시간 : 월~금 09:00 ~ 18:00
+                        </address>
+                        <span>NEOPHARM CO., LTD. ALL RIGHTS RESERVED.</span>
+                    </div>
+                </div>
+            </div>
+       </footer>
+   
+     </div>
+    
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="./js/jquery.easing.1.3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <!-- <script>
+      $('#headerArea').load('./common/header.html',function(){
+        $.getScript('./js/common.js');
+      });
+      $('#footerArea').load('./common/footer.html');
+    </script> -->
+    <script>
+        sessionStorage.removeItem('splashVisited');
+    </script>
+    <script src="./js/common.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script>
+      AOS.init({
+      });
+    </script>
+</body>
+</html>
+
+

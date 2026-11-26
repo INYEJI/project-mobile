@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* 회사소개-오시는길 콘텐츠 */
+#content .content_area{
+    width: 100%;
+    padding: 100px 20px;
+    box-sizing: border-box;
+}
+#content .content_area .tabs{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+#content .content_area .tabs li{
+    width: 30%;
+    border-radius: 25px; 
+    overflow: hidden;
+    border: 1px solid var(--color-main);
+}
+#content .content_area .tabs li a{
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px 0;
+    color: var(--color-main);
+    transition: all .5s;
+}
+#content .content_area .tabs li a.active,
+#content .content_area .tabs li a:hover{
+    background: var(--color-main);
+    color: #fff;
+    font-weight: 600;
+}
+
+/* maps */
+#content .content_area #map1,
+#content .content_area #map2{
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+#content .content_area .info{
+    margin-bottom: 100px;
+}
+#content .content_area .info dl dt{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--color-font);
+    margin-bottom: 20px;
+}
+#content .content_area .info dl dd{
+    font-size: 1.3rem;
+    margin-bottom: 10px;  
+}
+#content .content_area .info address{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem; 
+}
+#content .content_area p{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--color-font);
+    margin-bottom: 50px;
+}
+
+#content .content_area .mapuse{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+#content .content_area .mapuse li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    margin-bottom: 5px;
+}
+#content .content_area  .mapuse li > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 200px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    font-size: 1.7rem;
+    background: var(--color-main);
+    border-radius: 50%;
+}
+
+#content .content_area  .mapuse li > div span{
+    font-size: 4rem;
+    color: #f8f8f8;
+}
+#content .content_area  .mapuse li > div strong{
+    font-size: 1.3rem;
+    color: #f8f8f8;
+}
+#content .content_area  .mapuse ul{
+    font-size: 1.3rem;
+}
+#content .content_area .mapuse2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#content .content_area  .mapuse2 > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 200px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    font-size: 1.7rem;
+    background: var(--color-main);
+    border-radius: 50%;
+}
+#content .content_area  .mapuse2 > div span{
+    font-size: 4rem;
+    color: #f8f8f8;
+}
+#content .content_area  .mapuse2 > div strong{
+    font-size: 1.3rem;
+    color: #f8f8f8;
+}

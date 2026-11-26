@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* 채용정보 - 인재상 콘텐츠 */
+.visual{
+    background: url(../images/sub4_1/rh1.png) center / cover no-repeat;
+}
+
+#content{
+    width: 100%;
+    padding: 100px 20px;
+    box-sizing: border-box;
+}
+
+.hr{
+    margin-bottom: 50px;
+}
+.hr > strong{
+    font-size: 4rem;
+    color: var(--color-main);
+    display: block;
+}
+.hr span:nth-of-type(1){
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.8;
+}
+.hr span:nth-of-type(1) strong{
+    color: var(--color-main);
+}
+.hr img{
+    width: 100%;
+    margin: 50px 0;
+    border-radius: 20px;
+}
+.hr span:nth-of-type(2){
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.hr p{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.ideal{
+    padding: 50px 0;
+}
+.ideal ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ideal ul li{
+    border-top: 1px solid #666;
+}
+.ideal ul li:last-of-type{
+    border-bottom: 1px solid #666;
+}
+.ideal ul li div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+}
+.ideal ul li div span:nth-of-type(1){
+    display: block;
+    font-size: 1.2rem;
+}
+.ideal ul li div span strong{
+    color: var(--color-main);
+    padding-right: 10px;
+}
+.ideal ul li div span:nth-of-type(2){
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.ideal ul li div p{
+    font-size: 1.2rem;
+}
+
+.post a{
+    display: block;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.3rem;
+    border-radius: 15px;
+}

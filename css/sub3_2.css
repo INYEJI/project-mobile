@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/* 연구소이야기-피부과학 콘텐츠 */
+.visual{
+    background: url(../images/sub3_1/bg1.png) center / cover no-repeat;
+}
+.sub_menu ul li{
+    width: 50%;
+}
+
+.content_area{
+    width: 100%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+.content_area .main_img img{
+    width: 100%;
+    display: block;
+    margin: 20px 0 50px 0;
+}
+.content_area .main_img span{
+    display: block;
+    color: var(--color-main);
+    letter-spacing: 4px;
+}
+.content_area .main_img strong{
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.content_area .main_img p{
+    font-size: 1.4rem;
+}
+/* 섹션 공통영역 */
+#content .sec{
+    width: 100%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    background: #222;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#content .sec .intro div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #666;
+    padding-bottom: 15px;
+}
+#content .sec .intro div strong{
+    font-size: 1.5rem;
+    color: var(--color-main);
+    letter-spacing: 2px;
+}
+#content .sec .intro div h3{
+    font-size: 1.2rem;
+    color: #ccc;
+    letter-spacing: 4px;
+    display: flex;
+}
+#content .sec .intro > strong{
+    display: block;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+#content .sec .intro > p{
+    color: #ccc;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+#content .sec .desc{
+    display: none;
+    padding: 20px 0 0 0;
+}
+#content .sec .desc strong{
+    color: var(--color-sub);
+    display: block;
+    text-align: justify;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+#content .sec .desc p{
+    color: #ccc;
+    display: block;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+/* 주요성과지표 */
+.major_ind{
+    width: 100%;
+    padding: 70px 20px;
+    box-sizing: border-box;
+    background: var(--color-back2);
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.major_ind > span{
+    display: block;
+    color: var(--color-main);
+    letter-spacing: 4px;
+    text-align: center;
+}
+.major_ind > h3{
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.major_ind > p{
+    display: block;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.major_ind img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.major_ind > ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.major_ind > ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #fff;
+    background-color: #F7F9FF;
+    padding: 20px;
+}
+.major_ind > ul .svg-inline--fa{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--color-font);
+}
+.major_ind > ul strong{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-point);
+}
+.major_ind > ul span{
+    font-size: 1.3rem;
+}
+
+
+/* 최신연구성과 */
+#content .result{
+    width: 100%;
+    padding: 50px 0;
+}
+#content .result h3{
+    font-size: 1.8rem;
+    color: var(--color-font);
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.swiper {
+width: 100%;
+padding-bottom: 50px;
+}
+.swiper-slide {
+background-position: center;
+background-size: cover;
+width: 300px;
+height: 200px;
+}
+
+#content .result div ul{
+    display: flex;
+}
+#content .result div >ul li{
+    background-color: #f8f8f8;
+    border: 1px solid #C2C6D3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+#content .result div > ul > li > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#content .result div > ul > li > div > strong {
+    background-color: var(--color-main);
+    color: #fff;
+    padding: 5px;
+    font-weight: 300;
+}
+#content .result div > ul > li dl{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#content .result dt{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+}
+#content .result dd{
+    text-align: justify;
+}
+
+#content .result a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--color-point);
+    margin-top: auto;
+    border-top: 1px solid #C2C6D3;
+}
+
+.swiper-pagination-bullet-active{
+    background: var(--color-main);
+}
